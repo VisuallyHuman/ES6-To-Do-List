@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>ES6 To-Do List Generator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/toDoGenerator.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col text-center">
+            <img src="img/es6Rocks.png" />
+              <h1>ES6 To-Do List Generator</h1>
+            <p class="lead">Make a simple to-do list that will write & remove list items to the server using a bit of Node.js</p>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+              <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Enter To Do Item Here" aria-label="Recipient's username" aria-describedby="basic-addon2" id="newText">
+                  <div class="input-group-append">
+                    <button class="btn btn-secondary" type="button" id="newLi">Add To-Do Item</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col">
+            <ul class="list-group" id="toDoList">
+              
+            </ul>
+            
+          
+          </div>
+          
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col text-center">
+          <button type="button" class="btn btn-danger btn-sm btn-center" id="destroy">DELETE LIST ⚠️</button>
+            <button type="button" class="btn btn-success btn-sm center-block" id="destroy">EXPORT PDF 📄</button>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/toDoListMaker.js"></script>
+  </body>
+</html>

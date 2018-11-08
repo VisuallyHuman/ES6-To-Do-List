@@ -1,0 +1,33 @@
+html {
+    background-image:url('../img/color-bg.jpg');
+}
+
+body {
+    background:rgba(0,0,0,0.2);
+    height:100%;
+    padding:5% 0 5% 0;
+    color:#ffffff;
+}
+
+h1 {
+    color:#ffffff;
+}
+p {
+    color:#ffffff;
+}
+
+.btn-outline-secondary {
+    color: #FDCF27;
+    background-color: transparent;
+    background-image: none;
+    border-color: #FDCF27;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color:rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,.125);
+}
